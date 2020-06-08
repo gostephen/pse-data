@@ -2,9 +2,9 @@
 Access data for the Philippine Stock Exchange with Python
 
 ## Dependencies
-
-Pandas
-
+```
+pip install pandas
+```
 ## Usage
 ```python
 from pseData import PseData
