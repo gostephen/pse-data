@@ -17,3 +17,12 @@ PseData().lookup_current_info("JFC")
 ```python
 PseData().lookup_historical_range("JFC", "2020-06-01", "2020-06-05")
 ```
+
+> ## Functions
+>
+> - **all_open_stocks()**: returns list of tickers of all open stocks
+> - **filter_rsi()**:
+> - lookup_current_info():
+> - lookup_historical_date():
+> - lookup_historical_range():
+>
