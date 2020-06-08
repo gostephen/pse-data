@@ -21,8 +21,7 @@ PseData().lookup_historical_range("JFC", "2020-06-01", "2020-06-05")
 > ## Functions
 >
 > - **all_open_stocks()**: returns list of tickers of all open stocks
-> - **filter_rsi()**:
-> - lookup_current_info():
-> - lookup_historical_date():
-> - lookup_historical_range():
->
+> - **filter_rsi(lower_bound, upper_bound)**: returns dictionary with key as ticker and value as RSI for all stocks that have RSI values within the given range
+> - **lookup_current_info(ticker)**:
+> - **lookup_historical_date(ticker, date)**: returns list with ticker information from specified date
+> - **lookup_historical_range(ticker, start_date, end_date)**:
